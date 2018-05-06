@@ -19,7 +19,7 @@ public class PanelAuthenticationSuccessHandler implements AuthenticationSuccessH
     public void onAuthenticationSuccess(HttpServletRequest request, HttpServletResponse response,
                                         Authentication authentication) throws IOException {
 
-        redirectStrategy.sendRedirect(request, response, "/login");
+        redirectStrategy.sendRedirect(request, response, "/home");
 
     }
 }
